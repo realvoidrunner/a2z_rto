@@ -224,7 +224,11 @@ function Contact() {
             </div>
             <div className="flex gap-3">
               <dt className="font-semibold">✉️ Email:</dt>
-              <dd className="text-ink-2">hello@a2zrtodehradun.in</dd>
+              <dd className="text-ink-2">
+                <a href="mailto:aman.verma00075@gmail.com" className="hover:text-brand">
+                  aman.verma00075@gmail.com
+                </a>
+              </dd>
             </div>
             <div className="flex gap-3">
               <dt className="font-semibold">🕘 Hours:</dt>
@@ -234,7 +238,7 @@ function Contact() {
         </div>
 
         <form
-          action="mailto:hello@a2zrtodehradun.in"
+          action="mailto:aman.verma00075@gmail.com"
           method="post"
           encType="text/plain"
           className="rounded-2xl border border-line bg-bg p-6 sm:p-8"
