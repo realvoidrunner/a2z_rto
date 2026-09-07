@@ -216,7 +216,11 @@ function Contact() {
             </div>
             <div className="flex gap-3">
               <dt className="font-semibold">📞 Phone:</dt>
-              <dd className="text-ink-2">+91 98765 43210</dd>
+              <dd className="text-ink-2">
+                <a href="tel:+917906802989" className="hover:text-brand">
+                  +91 79068 02989
+                </a>
+              </dd>
             </div>
             <div className="flex gap-3">
               <dt className="font-semibold">✉️ Email:</dt>
